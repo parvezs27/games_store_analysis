@@ -8,7 +8,9 @@ We are employed as Data Analysts for a gaming business with 349 brick & mortar s
 Here's the information we have on hand currently:
 - The business launched on the 01/01/2020, assuming today is the 01/01/2023, we have we have 3 full years of data, with the last full day of data being 31/12/2023.
 - The business sells video games and gaming systems, and operates as brick and mortar only with 349 stores nationwide
-- We have been given w f
+- We have been given 2 XLSX files aggregated to certain levels, with rather cryptic names. These files have been provided to us by the Data Engineering team, who have mentioned the data is clean and ready to work with in Tableau. 
+  - [store_wbr_trans_data_20230424.xlsx](https://shorturl.at/dikmp) - This dataset contains store revenue, transactions and unit sales data, segmented by transaction date and store number. 
+  - [sales_by_date_and_prod_cat.xlsx](https://shorturl.at/chGN4) - This dataset contans company-wide revenue, transactions and unit sales data, segemented by transaction date and product category. 
 
 ## Business Tasks
 Here are our tasks as a Data Analyst based on the information provided.
