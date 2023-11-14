@@ -26,9 +26,18 @@ For the sake of length and simplicity, we will not do a step by step walkthrough
 
 Problem 1. Null Date Values in Tableau
 
-We have run into our first issue! Once we've connected to our data source and dragged the total revenue and transaction fields into our shelves, we can see that there's $1895 worth of revenue with no associated transaction dates. 
+We have run into our first issue! Once we've connected to our data source and dragged the total revenue and transaction fields into our shelves, we can see that there's $1895 worth of revenue with no associated transaction dates.
 
-![](https://prnt.sc/tr2Xd6kkAIjR)
+![image](https://github.com/parvezs27/games_store_analysis/assets/107979122/4110c642-084c-4a8d-b419-0e1d9edb65de)
+
+Lets take a closer look by using Tableau's view data feature, which will show us which rows the transaction date is showing as null. Right click null value > view data > full data > show fields > select all fields. 
+
+![image](https://github.com/parvezs27/games_store_analysis/assets/107979122/4b2fc935-5cce-4fd4-969d-2e3ec47df034)
+
+We can see above that there's two rows showing null transaction date values. There may be a formatting error or a typo in the data source leading to this, lets head over to our data source and filter by the store name and revenue amount to get to the rows above.
+
+
+
 
 - 
 - S
