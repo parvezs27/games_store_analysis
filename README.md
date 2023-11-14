@@ -22,11 +22,13 @@ Here are our tasks as a Data Analyst based on the information provided.
  - We want to ensure we are providing professional looking and fully functioning dashboards. It's important to consider your target audience and any special requirements and catering to these e.g. vision requirements (colorblindness, sensitivity to certain colors, difficulty reading smaller text). We also want to focus on design elements such as colour, which should be used sparingly, shouldn't be too intense to maintain a relaxed and should be used with intention (reds for 'bad' or 'negativity' and greens for 'good' and positivity'). Other design elements include utilising white space to avoid cluttering and making sure objects are aligned to avoid distraction.
 
 ## Building the Revenue Dashboard
-Here are our tasks as a Data Analyst based on the information provided.
-1. Determine the key metrics to assist stakeholders with business decisions.
- - All businesses are concerned with revenue, so we will report revenue. But should the revenue be for the full 3 years of data? We can certainly get a high level look and a get a look at the broader trends occuring over 3 years and then drill down into annual, quarterly and monthly time periods. Stakeholders will be able to see annual data and compare it to other years, quarterely revenue also make sense as businesses tend to file their financials on a quarterely basis.  
-2. Provide double-click metrics
- - It's not enough just to provide key high level metrics such as total annual sales, we also need to provide the option to double-click into these metrics to allow stakeholders to see why sales are higher or lower.
+For the sake of length and simplicity, we will not do a step by step walkthrough, but rather highlight anything key such as problems we run into during creation of the dashboard.
+
+Problem 1. Null Date Values in Tableau
+
+We have run into our first issue! Once we've connected to our data source and dragged the total revenue and transaction fields into our shelves, we can see that there's $1895 worth of revenue with no associated transaction dates. 
+
+![](https://prnt.sc/tr2Xd6kkAIjR)
 
 - 
 - S
