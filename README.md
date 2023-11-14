@@ -19,7 +19,7 @@ Here are our tasks as a Data Analyst based on the information provided.
 2. Provide double-click metrics
  - It's not enough just to provide key high level metrics such as total annual sales, we also need to provide the option to double-click into these metrics to allow stakeholders to see why sales are higher or lower.
 3. Communicate metrics and other information accurately and effectively
- - We want to ensure we are providing professional looking and fully functioning dashboards. We also want to make sure 
+ - We want to ensure we are providing professional looking and fully functioning dashboards. It's important to consider your target audience and any special requirements and catering to these e.g. vision requirements (colorblindness, sensitivity to certain colors, difficulty reading smaller text). We also want to focus on design elements such as colour, which should be used sparingly, shouldn't be too intense to maintain a relaxed and should be used with intention (reds for 'bad' or 'negativity' and greens for 'good' and positivity'). Other design elements include utilising white space to avoid cluttering and making sure objects are aligned to avoid distraction. 
 
 - 
 - S
