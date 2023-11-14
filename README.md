@@ -26,11 +26,11 @@ For the sake of length and simplicity, we will not do a step by step walkthrough
 
 Problem 1. Null Date Values in Tableau
 
-We have run into our first issue! Once we've connected to our data source and dragged the total revenue and transaction fields into our shelves, we can see that there's $1895 worth of revenue with no associated transaction dates. Despite the data type being set to date in Tableau, 
+We have run into our first issue! Once we've connected to our data source and dragged the total revenue and transaction fields into our shelves, we can see that there's $1895 worth of revenue with no associated transaction dates.
 
 ![image](https://github.com/parvezs27/games_store_analysis/assets/107979122/b6c2c315-5331-4afc-b8d2-60b8a712adab)
 
-Lets take a closer look by using Tableau's view data feature, which will show us which rows the transaction date is showing as null. Right click null value > view data > full data > show fields > select all fields. 
+Despite the data type being set to date in Tableau as highlighted above, we're still facing this problem. Lets take a closer look by using Tableau's view data feature, which will show us which rows the transaction date is showing as null. Right click null value > view data > full data > show fields > select all fields. 
 
 ![image](https://github.com/parvezs27/games_store_analysis/assets/107979122/4b2fc935-5cce-4fd4-969d-2e3ec47df034)
 
@@ -38,7 +38,20 @@ We can see above that there's two rows showing null transaction date values. The
 
 ![image](https://github.com/parvezs27/games_store_analysis/assets/107979122/7e735347-172b-48ed-a78c-0c88cd9d1e2e)
 
-The two rows are displayed above and we can see that the transaction dates are indeed there. So why are they showing as null in Tableau? This is due to one, of the many issues in Tableau, where despite the column format/data type is set to 'date' in Excel, some values don't get interpreted as dates once imported into Tableau. So how do we fix this? Changing the column format/data type to 'text' and then importing into Tableau will fix the issue. It's important we **do not change the original file** containing the original dataset, this is incase something goes wrong. We will first create a copy of the file, copy the transaction date column into notepad, paste it back into the desired in column in excel and set the column format/data type to 'text'. After doing this we will save the file to a secure location and use it as our new data source in Tableau. As we can see below the dates area now being interpetes
+The two rows are displayed above and we can see that the transaction dates are indeed there. So why are they showing as null in Tableau? This is due to one, of the many issues in Tableau, where despite the column format/data type is set to 'date' in Excel, some values don't get interpreted as dates once imported into Tableau. So how do we fix this? Changing the column format/data type to 'text' and then importing into Tableau will fix the issue. It's important we **do not change the original file** containing the original dataset, this is incase something goes wrong. We will first create a copy of the file, copy the transaction date column into notepad, paste it back into the desired in column in excel and set the column format/data type to 'text'. After doing this we will save the file to a secure location and use it as our new data source in Tableau. As we can see below, when the new transaction date column is used no null values are showing. 
+
+![image](https://github.com/parvezs27/games_store_analysis/assets/107979122/9063e42a-554d-4d93-9e34-c11ad852f5de)
+
+Below is a our revenue dashboard
+
+link
+
+Some quick mentions of what we did here
+- We double checked the percent different calculations using a calculator to make sure the calculations were correct. It's not uncommon for calculations to not go as expected, so we always make sure to do our QA (quality assurance).
+- We duplicated worksheets in order to avoid having to do things again and reduce the occurence of bugs. 
+
+
+
 
 
 
