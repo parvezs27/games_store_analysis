@@ -48,10 +48,11 @@ link
 
 Some quick mentions of what we did here
 - We double checked the percent different calculations using a calculator to make sure the calculations were correct. It's not uncommon for calculations to not go as expected, so we always make sure to do our QA (quality assurance).
-- We duplicated worksheets in order to avoid having to do things again and reduce the occurence of bugs. 
-
-
-
+- We duplicated worksheets in order to avoid having to do things again and reduce the occurence of bugs.
+- You can have the dollar signs in brackets, as it's good to have the units in brackets like KG or KM kilometers, but dollars in which country? Better to have if it's US dollars or Aus dollars, the dollar signs are already there
+- documentation - dashboard documentation is extremely important. audience needs to know what the data source is,  It's not enough to have.... usually you'll find a something like a text box containing information
+- now if you have the docoumentation in the workbook, if you need to go back and change something, you'll have to find the dashboard, download it if it's not saved locally, make your changes and then re-publish, all whilst increasing your risk of messing something up such as the filters or any other elements of your dashbord. you'll have to create a backup copy too every time you want to make changes to the documentation, incase something goes wron.g
+- Documentation placed inside the dashboard is also not searchable, in the real world where you might have dozens or hundreds of dashboards, 
 
 
 
