@@ -55,7 +55,18 @@ Some quick mentions of what we did here
 - Documentation placed inside the dashboard is also not searchable, in the real world where you might have dozens or hundreds of dashboards, if you need to find which dashboard uses a particular dataset or a particualr field, you'd have no idea. It's much more easier and time saving to have your documentation outside of dashboards.
 - People often put an information "i" icon which you hover over, but not good as when you scroll down it's disappeared, you then have to scroll back up, not a good experience. Having it externally, allows you to have your dashboard side by side with the documentation which is a much better experience. that's why have a footer at the bottom of the page with a link leading to documentation, this could be stored on the companies internal page or on google drive .
 
-- 
+- we will also look at products and see which category is selling the most or least, this will give the stakeholders an idea and maybe they can decide to order more or less stock of a category or even remove a cateogry from selling
+- you don't even need to have axis labels if it's obvious what it is
+
+
+- now when we do percent of total revenue, here the bars are there, we can see percent of total revenue by year and category, but theres's an issue here. Can you spot it? Lets add the percent labels and get a better look. 
+![image](https://github.com/parvezs27/games_store_analysis/assets/107979122/3f853b10-578c-466f-ad6c-b10c692aef38)
+
+- now with the percent labels in, we can see that the percent doesn add upto 100%. this is an example of how easy it is to duplicate worksheets to cut your work time but miss important details, basically what's happening is that the table calculation is trying to do it across the values rather than within a specific year and category, so we'll change it
+- ![image](https://github.com/parvezs27/games_store_analysis/assets/107979122/8927e121-2ece-485d-b21f-34e110fba2ba)
+
+- now all the bars are adding upto 100%
+- ![image](https://github.com/parvezs27/games_store_analysis/assets/107979122/2be3959f-7eba-46a9-bc50-094c0dbad4d4)
 
 
 
