@@ -47,6 +47,7 @@ Below is a our revenue dashboard
 link
 
 Some quick mentions of what we did here
+- size is 1400 by 2400, it's better to have it longer, if you have inserted all your worksheets and have to come back and make the dashboard longer, you will have to re-arrange everything and it adds extra work, having it longer before hand wil lgive you empty whtiespace at the bottom but it's not a big deal
 - We double checked the percent different calculations using a calculator to make sure the calculations were correct. It's not uncommon for calculations to not go as expected, so we always make sure to do our QA (quality assurance).
 - We duplicated worksheets in order to avoid having to do things again and reduce the occurence of bugs.
 - You can have the dollar signs in brackets, as it's good to have the units in brackets like KG or KM kilometers, but dollars in which country? Better to have if it's US dollars or Aus dollars, the dollar signs are already there
@@ -68,6 +69,14 @@ Some quick mentions of what we did here
 - now all the bars are adding upto 100%
 - ![image](https://github.com/parvezs27/games_store_analysis/assets/107979122/2be3959f-7eba-46a9-bc50-094c0dbad4d4)
 
+- Now have data on stores too and stakeholders would want to see waht's happening in each store
+- if your company has a color code that they would like to use, go ahead and use but be mindful of certian things, colors such as red are associatd with "bad" "alarming", so use sparingly or don't use if needded. Stick to more releaxing colours and choose lesser saturations and hues for a more releaxing feel.
+
+- here our chart for average revenue per transaction, the differences between average revenue per month isn't noticeable, but there is difference. we just have to bring it out and show it more effectively. lets uncheck include zero.
+![image](https://github.com/parvezs27/games_store_analysis/assets/107979122/f7532b37-f248-43c8-b44b-45fb46fd331e)
+
+- zero unchecked much better
+- ![image](https://github.com/parvezs27/games_store_analysis/assets/107979122/4761acba-9484-47cb-9103-f62ae1a7f1a4)
 
 
 
